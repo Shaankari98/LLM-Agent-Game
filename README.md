@@ -1,45 +1,60 @@
-<<<<<<< HEAD
+#🕹️ LLM-Agent-Game
 
-# Demo
+LLM-Agent-Game is a simple yet fun project where AI-powered agents (driven by Large Language Models) interact in a game environment. Agents can make decisions, strategize, and compete autonomously, showcasing the power of AI in gameplay.
 
-![Gameplay pic](https://storage.googleapis.com/ethglobal-api-production/projects%2Fzuar7%2Fimages%2FScreenshot%202023-05-23%20at%205.39.18%20AM.png)
+#🔥 Features
 
-[Learn more](https://www.ethglobal.com/showcase/agent-arena-the-colosseum-zuar7)
+🤖 AI-Powered Agents: Each agent uses an LLM to decide its actions.
+
+🕹️ Turn-Based Game: Simple gameplay loop to see agents interact.
+
+📊 Score Tracking: Keep track of agent performance and stats.
+
+🎯 Easy to Extend: Add new strategies, agents, or game rules.
+
+💻 Interactive Console Output: Watch the game progress in real-time.
+
+#🛠️ Tech Stack
+
+Python 3.10+
+
+OpenAI GPT (or any LLM API)
+
+Optional: rich for colorful console outputs
+
+Optional: pygame for a simple GUI
+
+🚀 Installation
+# Clone the repo
+git clone https://github.com/your-username/LLM-Agent-Game.git
+cd LLM-Agent-Game
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+🎮 How to Play / Run
+python main.py
 
 
+Watch AI agents take turns automatically.
 
+Customize the number of agents and game rules in config.py.
 
+Check the console for live score updates and action logs.
 
-# Thesis
+#💡 Example Output
+Turn 1: Agent_A moves to position (2,3)
+Turn 2: Agent_B attacks Agent_C
+Scores => Agent_A: 10, Agent_B: 5, Agent_C: 0
+Game Over! Winner: Agent_A 🏆
 
-We are building what we call an “automatic world” with AI-based agents in a fully open, composable on-chain world.
+#📜 License
 
-User can participate in the game in 2 ways:
+This project is licensed under the MIT License - see the LICENSE
+ file for details.
 
-1. Build their own intelligent LLM agents. This is as simple as write a few lines of natural language to define the character, mindset, or ideology of the LLM-based agent. Based on our prompt template, the agent will be able to achieve fully autonomous action in the on-chain world.
-2. Co-build the on-chain world the agents live on. Just like other composable on-chain games, the game world is fully customizable, and we open interfaces for players to define their own game logic and content and share with other players and agents.
-
-Why we need this?
-
-1. reduce the barrier of fully on-chain game. Composability is good, but we cannot expect all players to write codes. Using natural language as the main interface allows literally everyone to participate in the game.
-2. new game mechanism and emergent experience. As the Generative Agents paper ([https://arxiv.org/abs/2304.03442](https://arxiv.org/abs/2304.03442)) has shown, LLM-based generative agents are able to collectively generate very interesting behavior, and the competition & collaboration in a multi-human, multi-agent world can be fascinating.
-3. More autonomous and normal autonomous world. A successful autonomous world depends on the constant input of all human participants and is hard to bootstrap. But you can let your LLM agents do your work and constantly contributing to the game, thus the quantity of content can be easily bootstrapped.
-4. Cultural layer on top of the mathematic logic. For the first time in human history, we can perform subtle, natural language-based thinking with machines. All previous games are based on some formal logic (I attack you, you reduce 1 health), and LLM allows us to simulate more subtle game logic (what will be the conversation between a Buddhist dad and a Christian son). This unlocks the potential of a cultural layer on top of the physical logic.
-
-# Running Guide
-
-1. Setup OpenAI API key
-
-- Get your key [here](https://platform.openai.com/account/api-keys).
-- Set your local environmental variable by typing in terminal: `export OPENAI_API_KEY=<your secret key>`.
-- Currently, cost is quite low. ~30 rounds of game cost less than $0.1.
-
-2. Create a folder named `logs` in the root directory. (otherwise the code will throw an error)
-3. Run the `ExplorerAgent.py` file. Feel free to change world_size, change the agent principles, and play with other parameters.
-
-**Warning**
-
-Currently, the LLM agent is very dumb, so you will see it is performing not as expected. We are working hard to change this.
-=======
-# LLM-Agent-Game
->>>>>>> 367f06e4df4962f1b8f55d76fc5a412693768379
