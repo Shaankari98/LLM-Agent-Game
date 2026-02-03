@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Demo
 
@@ -39,3 +40,6 @@ Why we need this?
 **Warning**
 
 Currently, the LLM agent is very dumb, so you will see it is performing not as expected. We are working hard to change this.
+=======
+# LLM-Agent-Game
+>>>>>>> 367f06e4df4962f1b8f55d76fc5a412693768379
