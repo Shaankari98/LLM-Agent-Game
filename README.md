@@ -1,8 +1,8 @@
-#🕹️ LLM-Agent-Game
+##🕹️ LLM-Agent-Game
 
 LLM-Agent-Game is a simple yet fun project where AI-powered agents (driven by Large Language Models) interact in a game environment. Agents can make decisions, strategize, and compete autonomously, showcasing the power of AI in gameplay.
 
-#🔥 Features
+##🔥 Features
 
 🤖 AI-Powered Agents: Each agent uses an LLM to decide its actions.
 
@@ -14,7 +14,7 @@ LLM-Agent-Game is a simple yet fun project where AI-powered agents (driven by La
 
 💻 Interactive Console Output: Watch the game progress in real-time.
 
-#🛠️ Tech Stack
+##🛠️ Tech Stack
 
 Python 3.10+
 
@@ -24,7 +24,7 @@ Optional: rich for colorful console outputs
 
 Optional: pygame for a simple GUI
 
-🚀 Installation
+##🚀 Installation
 # Clone the repo
 git clone https://github.com/your-username/LLM-Agent-Game.git
 cd LLM-Agent-Game
@@ -47,13 +47,13 @@ Customize the number of agents and game rules in config.py.
 
 Check the console for live score updates and action logs.
 
-#💡 Example Output
+##💡 Example Output
 Turn 1: Agent_A moves to position (2,3)
 Turn 2: Agent_B attacks Agent_C
 Scores => Agent_A: 10, Agent_B: 5, Agent_C: 0
 Game Over! Winner: Agent_A 🏆
 
-#📜 License
+##📜 License
 
 This project is licensed under the MIT License - see the LICENSE
  file for details.
